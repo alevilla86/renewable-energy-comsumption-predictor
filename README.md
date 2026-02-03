@@ -48,7 +48,6 @@ The data used in this project comes from the OECD (Organisation for Economic Co-
 renewable_energy/
 ├── main.py                      # Streamlit web application entry point
 ├── requirements.txt             # Python dependencies
-├── CLAUDE.md                    # Development guidelines
 ├── README.md                    # Project documentation
 ├── ml_model_config/             # Machine learning model module
 │   ├── __init__.py
@@ -72,8 +71,8 @@ renewable_energy/
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd renewable_energy
+   git clone https://github.com/alevilla86/renewable-energy-comsumption-predictor.git
+   cd renewable-energy-comsumption-predictor
    ```
 
 2. **Create and activate a virtual environment:**
