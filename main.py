@@ -79,4 +79,3 @@ else:
         st.write(f"**Training data points:** {len(X)}")
         st.write(f"**Year range:** {int(X.min())} - {int(X.max())}")
         st.write(f"**Model coefficient (slope):** {model.coef_[0]:.2f} KTOE/year")
-        st.write(f"**Model intercept:** {model.intercept_:.2f}")
